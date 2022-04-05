@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 //«Счётчик калорий»
 public class Main {
 
@@ -68,7 +69,7 @@ public class Main {
         }
     }
 
-    private static void printMenu () {
+    private static void printMenu() {
         System.out.println("\nЧто вы хотите сделать?");
         System.out.println("1 - Ввести количество шагов за определённый день");
         System.out.println("2 - Напечатать статистику за определённый месяц");
