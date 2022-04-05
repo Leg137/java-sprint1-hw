@@ -3,7 +3,7 @@ public class StepTracker {
     int goalSteps = 10_000;
     int[][] monthToData = new int[12][30];
 
-    void monthVisualExample(int month) {
+    void visualExampleMonth(int month) {
         //Метод для визуального отображения 30 дней месяца
         int[] monthExample = new int[monthToData[month - 1].length];
         for (int i = 1; i <= monthToData[month - 1].length; i += 7) {

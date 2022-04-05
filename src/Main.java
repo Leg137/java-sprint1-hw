@@ -21,7 +21,7 @@ public class Main {
                     System.out.println("Введен не правильный номер месяца");
                 } else {
                     System.out.println("Выберите число:");
-                    stepTracker.monthVisualExample(month); //Метод для визуального отображения 30 дней месяца
+                    stepTracker.visualExampleMonth(month); //Метод для визуального отображения 30 дней месяца
                     int day = scanner.nextInt();
                     if (day < 1 | day > 30) {
                         System.out.println("Введен не правильный номер дня");
