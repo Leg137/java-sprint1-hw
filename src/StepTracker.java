@@ -19,7 +19,6 @@ public class StepTracker {
         //Метод для сохранения количества шагов за определённый день
         if (steps < 0) {
             System.out.println("Введите положительное число.");
-            return;
         } else {
             monthToData[month-1][day-1] = steps;
             System.out.println(steps + " шагов сохранено в " + day + "й день " + month + "го месяца");
@@ -78,7 +77,6 @@ public class StepTracker {
         //Метод для изменения целевого количества шагов
         if (goalStepsNew < 0) {
             System.out.println("Введите положительное число.");
-            return;
         } else {
             goalSteps = goalStepsNew;
             System.out.println("Новая цель по количеству шагов в день: " + goalSteps + " шагов");
