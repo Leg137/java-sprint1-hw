@@ -1,13 +1,11 @@
 public class Converter {
-    public double convertToKm(MonthData monthData, int month) {
+    public double convertToKm(int sumSteps) {
         //Преобразование шагов в км
-        double sumStepsDouble = monthData.sumStepsFromMonth(month);
-        return sumStepsDouble * 75 / 100000;
+        return (double) (sumSteps * 75) / 100000;
     }
 
-    public double convertStepsToKilocalories(MonthData monthData, int month) {
+    public double convertStepsToKilocalories(int sumSteps) {
         //Преобразование шагов в ккал
-        double sumStepsDouble = monthData.sumStepsFromMonth(month);
-        return sumStepsDouble * 50 / 1000;
+        return (double) (sumSteps * 50) / 1000;
     }
 }
