@@ -1,7 +1,7 @@
 public class MonthData {
     //Хранение данных конкретного месяца
     int[][] monthDataArray = new int[12][30];
-
+    
     void visualExampleMonth(int month) {
         //Метод для визуального отображения 30 дней месяца
         int[] monthExample = new int[monthDataArray[month - 1].length];

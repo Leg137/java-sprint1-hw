@@ -50,6 +50,7 @@ public class Main {
                 System.out.println("Извините, такой команды пока нет.");
             }
         }
+        scanner.close();
     }
 
     private static void printMenu() {
